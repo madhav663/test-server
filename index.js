@@ -17,9 +17,9 @@ app.get('/', (req, res) => {
     res.status(200).json({
         SERVER_TYPE: "TEST_SERVER",
         LAPTOP: "MADHAV MISHRA",
-        HOST: HOST,
-        PORT: PORT,
-        TEST_SERVER_URL: "http://169.254.213.217:3030",
+        HOST:"43.204.18.194",
+        PORT: '80',
+        TEST_SERVER_URL: "http://43.204.18.194",
         APILABS_URL: "http://169.254.63.49:3000"
     })
 })
