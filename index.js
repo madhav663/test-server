@@ -3,14 +3,13 @@ import "dotenv/config";
 
 const app = express();
 
-const HOST = process.env.HOST;
-const PORT = process.env.PORT;
 
-app.listen(PORT, HOST, (err) => {
+
+app.listen(80, (err) => {
     if (err) {
         console.log('Unable to start server ERROR: ', err)
     }
-    console.log('Server Listening at ', `http://${HOST}:${PORT}`)
+    console.log('Server Listening')
 })
 
 
